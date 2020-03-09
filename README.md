@@ -12,15 +12,15 @@ Currently, `Bomb.js` and `ImageSlider.js` don't contain any code, so if you run
 `learn` or `npm start`, you'll get an error. This is because our tests are trying to import and
 use these components before they've been written.
 
-So, before we continue, your first task is to create a simple components
-for both `ImageSlider` and `Bomb`:
+<!-- So, before we continue, your first task is to create a simple components
+for both `ImageSlider` and `Bomb`: -->
 
-- In the `src/ImageSlider.js` file, create an `ImageSlider` React component.
+<!-- - In the `src/ImageSlider.js` file, create an `ImageSlider` React component.
 - In the `src/Bomb.js` file, create a `Bomb` React component.
 
 These components will need a valid `render` method to allow for our tests to
 properly import and use them. Now, if you've created valid components, you should
-be able to run `learn` to see the test results and run `npm start` to start the app.
+be able to run `learn` to see the test results and run `npm start` to start the app. -->
 
 ## Image slider
 
@@ -28,10 +28,10 @@ Let's pretend we're making an awesome slider for our new portfolio site.
 Naturally, we'll use React to do so! We have to start somewhere, so in this lab
 we'll just focus on setting up the initial state of the slider.
 
-1.  Its initial state should have a property called `currentSlideIndex` that
+<!-- 1.  Its initial state should have a property called `currentSlideIndex` that
     starts at `0`.
 2.  It should only render out the text `'I am on slide <CURRENT_SLIDE>'`, where
-    `<CURRENT_SLIDE>` is the value of `this.state.currentSlideIndex`.
+    `<CURRENT_SLIDE>` is the value of `this.state.currentSlideIndex`. -->
 
 ## A bomb timer
 
